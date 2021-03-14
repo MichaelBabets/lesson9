@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lesson9/my_page/my_controller.dart';
-import 'package:lesson9/second_page/second_page.dart';
 
 class MyHomePage extends StatelessWidget {
 
