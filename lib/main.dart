@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lesson9/utils/routes.dart';
+import 'package:lesson9/utils/translation.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      translations: AppTranslations(),
+      locale: Get.deviceLocale,
       getPages: GetPages.allGetPages,
     );
   }

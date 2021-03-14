@@ -9,9 +9,11 @@ class MyHomePage extends StatelessWidget {
 
     final MyController controller = Get.put(MyController());
 
+    print(Get.deviceLocale);
+
     return Scaffold(
       appBar: AppBar(
-        title: Text('GetX test'),
+        title: Text('title'.tr),
       ),
       body: Center(
         child: Column(
